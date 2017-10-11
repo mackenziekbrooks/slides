@@ -48,7 +48,9 @@ Mackenzie Brooks, Assistant Professor and Digital Humanities Librarian
 
 
 # DH 102 Data in the Humanities 
-
+* Unit 1: Text
+* Unit 2: Network
+* Unit 3: Space
 
 # DH 102 - Ring-tum Phi
 

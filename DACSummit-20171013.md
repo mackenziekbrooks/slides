@@ -91,16 +91,19 @@ How can digital archives serve library faculty in teaching info/digital literaci
 <img src="images/sjcemetery.png" alt="screenshot of Stonewall Jackson Cemetery database" /> 
 
 # DH 102 - cemetery database
-<img src="images/tuckercemetery.jpg" alt="visualization showing death years of cemetery data" /> 
-<div id="citation">Will Tucker</div>
-
-# DH 102 - cemetery database
 <img src="images/tuckercemetery2.jpg" alt="visualization of cemetery data" /> 
 <div id="citation">Will Tucker</div>
 
+# DH 102 - cemetery database
+<img src="images/tuckercemetery.jpg" alt="visualization showing death years of cemetery data" /> 
+<div id="citation">Will Tucker</div>
+
 # DH 102 - unit 2
+<img src="images/shencover.jpg" alt="cover of Shenandoah magazine" style="max-width: 30%; display:block;float:right;"/>
+
 * Shenandoah periodical index
 * Thomas H. Carter personal library metadata 
+
 
 # DH 102 - unit 2
 * data structures

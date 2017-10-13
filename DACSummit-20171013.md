@@ -7,7 +7,7 @@ date: October 13, 2017
 # 
 <h3>Beyond Primary Sources: Digital Archives in the DH Classroom</h3>
 
-Mackenzie Brooks, Assistant Professor and Digital Humanities Librarian
+Mackenzie Brooks, Assistant Professor and Digital Humanities Librarian, Washington and Lee University
 
 Digital Archives in the Commonwealth Summit
 
@@ -116,7 +116,9 @@ How can digital archives serve library faculty in teaching info/digital literaci
 # conclusions
 * interfaces and APIs are great, but data in bulk is best for beginners
 * even messy data is useful
-* 
+* visualizations as entry-point to collections
+* digital archives as humanities-friendly data
+
 
 
 

@@ -8,7 +8,7 @@ date: October 24, 2017
 
 Mackenzie Brooks, Assistant Professor and Digital Humanities Librarian
 
-DLF Forum,
+DLF Forum, Pittsburgh, PA
 
 October 24, 2017
 
@@ -23,29 +23,78 @@ October 24, 2017
 * Uncomfortable with ambiguity
 * Self-labeled "bad at technology"
 
-# Desires
+# Some Goals
 * Inclusive pedagogy 
-* Build confidence with tech
+* Confidence building
 * Domains
-* Metacognition/how to learn
+* Metacognition
 
-# Productive failure 
-* Croxall, Brian, and Quinn Warnick. “Failure.” Digital Pedagogy in the Humanities: Concepts, Models, and Experiments, Modern Language Association, 2016, https://digitalpedagogy.mla.hcommons.org/keywords/failure/.
-
-
+# Harder goals
+* Productive failure 
+* Iteration
+* Experimentation 
 
 # Specifications Grading
 <img src="images/specscover.jpg" style="max-width:70%"/> 
 
+# Promises
+* Combat grade anxiety
+* Reduce grade inflation
+* Match learning outcomes
+* Increase rigor
+* Reduce time spent grading
+* Increase student responsibility
+
 # How it works
-* 
+* Assignments are pass/fail
+* Clear, detailed specifications 
+* Specs = B-level work
+* Bundle + modules
+* Token/free pass
 
 # Implementation
+* Unit 1: Text
+* Unit 2: Network
+* Unit 3: Space
 
-# What Worked
+# Assignments
 
-# What Didn't Work 
+Core|Advanced
+---|---
+Methodology review|Project Narrative
+Project Data|Project Documentation
+Project Visualization|Project Reflection
+Blog posts| ...
 
+# Assignments
+
+A-level|B-level|C-level
+---|---|---
+All core|All core|All core
+All advanced|2/3 advanced|1/3 advanced
+6 blog posts|4/6 blog posts|3/6 blog posts
+1 absence|2 absences|3+ absences
+
+
+# What Works
+* 
+
+# What needs improvement
+* Tokens 
+* Specs can always be better 
+
+# Bibliography
+<div id="citation">
+* Croxall, Brian, and Quinn Warnick. “Failure.” Digital Pedagogy in the Humanities: Concepts, Models, and Experiments, Modern Language Association, 2016, https://digitalpedagogy.mla.hcommons.org/keywords/failure/.
+* Nilson, Linda B. Specifications Grading: Restoring Rigor, Motivating Students, and Saving Faculty Time. Sterling: Stylus Publishing, 2014. Print.
+* Unsworth, John. “Documenting the Reinvention of Text: The Importance of Failure.” The Journal of Electronic Publishing, vol. 3, no. 2, Dec. 1997. quod.lib.umich.edu, doi:10.3998/3336451.0003.201.
+</div>
+
+# Include!
+* Often the quality assignments are from students who are bringing outside skills/stuff to the classroom. 
+* We expect students to know the forms/templates through example but not explicit instruction 
+* grades should reflect height and number of hurdles 
+* be selective to match LO
 
 
 The DH community values the concept of “productive failure." But how do we model and reward this concept for students in the confines of a course? This presentation will describe an alternative grading system known as “Specifications Grading” and its use in two iterations of an undergraduate DH course.

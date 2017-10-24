@@ -119,20 +119,3 @@ All advanced|2/3 advanced|1/3 advanced
 * Unsworth, John. “Documenting the Reinvention of Text: The Importance of Failure.” The Journal of Electronic Publishing, vol. 3, no. 2, Dec. 1997. quod.lib.umich.edu, doi:10.3998/3336451.0003.201.
 </div>
 
-# Include!
-* Often the quality assignments are from students who are bringing outside skills/stuff to the classroom. 
-* We expect students to know the forms/templates through example but not explicit instruction 
-* grades should reflect height and number of hurdles 
-* be selective to match LO
-* student work example
-* multiple reflections gives time to implement 
-
-
-
-The DH community values the concept of “productive failure." But how do we model and reward this concept for students in the confines of a course? This presentation will describe an alternative grading system known as “Specifications Grading” and its use in two iterations of an undergraduate DH course.
-
-
-The DH community values the concept of “productive failure." Breaking tools or playing around with methodologies deepens our skills in ways that strictly following a tutorial cannot. As researchers, this behavior is encouraged as part of the research process and documented on blogs and social media. But how do we model this concept for students in a meaningful way? How do we reward their own productive failure within the confines of a course? Not only are undergraduates newcomers to both traditional and digital research methodologies, they arrive with varying levels of technology experience. Some have too much confidence in their abilities while others do not have enough. On some campuses, students are extremely grade conscious and demand detailed rubrics for even the most experimental assignments. Designing engaging and fair assignments in this context is a challenge.
-
-This presentation will describe an alternative grading system known as “Specifications Grading” and its use in an undergraduate DH course. From the student perspective, this system aims to reduce the stress and mystery of grades while also raising academic standards. From the instructor perspective, Specs Grading is intended to reduce grading time and force assignments to actually reflect learning objectives. In a DH course, Specs Grading works by requiring and assessing student work on individual phases of methodology, rather than the final product. The presentation will provide an overview of the grading system, its use in a 2016 course, and revisions to the system for a second offering of the course in fall 2017.
-

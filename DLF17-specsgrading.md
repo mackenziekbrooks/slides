@@ -26,10 +26,10 @@ October 24, 2017
 
 # Some Goals
 * Confidence building
-* Domains
+* Domains in public
+* Project management
+* Focus on methods
 * Metacognition
-* DH methods 
-* Project management 
 
 # Harder goals
 * Inclusive pedagogy
@@ -38,13 +38,12 @@ October 24, 2017
 * Experimentation 
 
 # Specifications Grading
-<img src="images/specscover.jpg" style="max-width:60%"/> 
+<img src="images/specscover.jpg" style="max-width:50%"/> 
 
 # Promises
 * Combat grade anxiety
 * Increase student responsibility
 * Increase rigor
-* Reduce grade inflation
 * Match learning outcomes
 * Reduce time spent grading
 
@@ -52,13 +51,16 @@ October 24, 2017
 * Assignments are pass/fail
 * Clear, detailed specifications 
 * Specs = B-level work
-* Bundle + modules
-* Token/free pass
+* Bundles + modules
+* Tokens/free pass
+* No partial credit
 
 # Implementation
 * Unit 1: Text
 * Unit 2: Network
 * Unit 3: Space
+
+<a href="https://mackenziekbrooks.gitbooks.io/dh-102-data-in-the-humanities">https://mackenziekbrooks.gitbooks.io/dh-102-data-in-the-humanities</a>
 
 # Assignments
 
@@ -81,6 +83,7 @@ All advanced|2/3 advanced|1/3 advanced
 # Example
 
 ## Project visualization specs:
+```
 * Due Tuesday 10/10 by 2:30pm.
 * Embed/publish on your website.
 * Indicate which tool/method you used to produce this visualization.
@@ -90,16 +93,19 @@ All advanced|2/3 advanced|1/3 advanced
      * What about the visualization/methodology worked or didn't work?
      * Are there issues with the data that the visualization illuminates or disguises?
      * Did this method of visualization require you to modify your data in a specific way?
+```
 
 # What Works
 * Word count privileges analysis + reflection
 * Repeated bundles creates opportunity to enact reflections
-* Appearance of rubric 
+* Specs disguise ambiguity for students 
+* Keeps me away from math
 
 # What needs improvement
 * Awareness/use of free passes 
 * Specs can always be better 
 * Commit to specs
+* +/-
 
 # Anonymous student quote
 > Mastery is not synonymous with accomplishment and confusion or lack of understanding is not synonymous with failure. Embracing this fact seems like a good starting point for improving my relationship with technology, for now.  

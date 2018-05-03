@@ -79,7 +79,7 @@ In groups of 3, browse your assigned website and discuss the following:
 
 # Help
 * Mackenzie Brooks // brooksm@wlu.edu
-* Paula Kiser // kisper@wlu.edu
+* Paula Kiser // kiserp@wlu.edu
 * Emily Cook  // cooke@wlu.edu
 
 

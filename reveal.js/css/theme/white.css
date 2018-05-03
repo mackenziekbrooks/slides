@@ -57,6 +57,15 @@ body {
 .reveal h1 {
   font-size: 1.5em; }
 
+.reveal .subtitle {
+  font-size: 1.3em;
+  text-transform: none;
+}
+
+.reveal .author {
+  text-transform: none;
+}
+
 .reveal h2 {
   font-size: 1.3em; }
 

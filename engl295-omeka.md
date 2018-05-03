@@ -69,6 +69,8 @@ In groups of 3, browse your assigned website and discuss the following:
 
 # Documentation
 * [Omeka User Manual](http://omeka.org/classic/docs/)
+* [Digital Archive](https://repository.wlu.edu/)
+* [Search Special Collections](http://archivesspace.wlu.edu/)
 
 # Let us know
 * what needs to be digitized

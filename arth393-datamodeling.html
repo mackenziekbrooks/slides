@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Prof. Mackenzie Brooks, DH Librarian">
+  <meta name="dcterms.date" content="2019-04-24">
+  <title>ARTH 383 // data modeling</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">ARTH 383 // data modeling</h1>
+  <p class="author">Prof. Mackenzie Brooks, DH Librarian</p>
+  <p class="date">April 24, 2019</p>
+</section>
+
+<section id="icebreaker" class="slide level1">
+<h1>Icebreaker</h1>
+<p>Do you collect anything? If not, is there anything in your life that you keep organized a certain way?</p>
+</section>
+<section id="what-is-dh" class="slide level1">
+<h1>what is DH?</h1>
+</section>
+<section id="what-is-dh-1" class="slide level1">
+<h1>what is DH?</h1>
+<ul>
+<li>remediation ✔</li>
+<li>web publishing for accessibility ✔</li>
+<li>Turning knowledge from human brains into something the computer can understand aka DATA</li>
+</ul>
+</section>
+<section id="what-is-data" class="slide level1">
+<h1>What is data?</h1>
+</section>
+<section id="what-is-data-1" class="slide level1">
+<h1>What is data?</h1>
+<p><a href="https://en.wikipedia.org/wiki/Data">Wikipedia</a>: &quot;Data is measured, collected and reported, and analyzed, whereupon it can be visualized using graphs, images or other analysis tools. Data as a general concept refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing.&quot;</p>
+</section>
+<section id="what-is-data-2" class="slide level1">
+<h1>What is data?</h1>
+<p><a href="https://schoolofdata.org/handbook/courses/what-is-data/">School of Data</a>: &quot;Data is a value assigned to a thing.&quot;</p>
+</section>
+<section id="pets-table" class="slide level1">
+<h1>Pets Table</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Animal</th>
+<th>Name</th>
+<th>Breed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cat</td>
+<td>Huxley</td>
+<td>Tabby cat</td>
+</tr>
+<tr class="even">
+<td>Cat</td>
+<td>Orwell</td>
+<td>Demon</td>
+</tr>
+<tr class="odd">
+<td>Dog</td>
+<td>Harper</td>
+<td>Retriever</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="where-do-you-encounter-data" class="slide level1">
+<h1>Where do you encounter data?</h1>
+</section>
+<section id="how-does-data-work-in-the-humanities" class="slide level1">
+<h1>How does data work in the humanities?</h1>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<p><a href="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">Schöch</a>: &quot;a digital, selectively constructed, machine-actionable abstraction representing some aspects of a given object of humanistic inquiry.&quot;</p>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<p><a href="http://journalofdigitalhumanities.org/1-1/defining-data-for-humanists-by-trevor-owens/">Owens</a>: 1) Constructed artifacts 2) interpretable texts 3) processable information</p>
+</section>
+<section id="examples" class="slide level1">
+<h1>Examples</h1>
+<ul>
+<li><a href="http://perio.do/en/">PeriodO</a></li>
+<li><a href="https://pleiades.stoa.org/">Pleiades</a></li>
+<li><a href="http://ancientgraffiti.org/">Ancient Graffiti Project</a></li>
+<li><a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty Art &amp; Architecture Thesaurus</a></li>
+<li><a href="http://prosody.lib.virginia.edu/">For Better For Verse</a></li>
+<li><a href="https://linkedjazz.org/network/">Linked Jazz</a></li>
+</ul>
+</section>
+<section id="so-what-do-the-computers-want" class="slide level1">
+<h1>So, what do the computers want?</h1>
+</section>
+<section id="computers-want" class="slide level1">
+<h1>Computers want:</h1>
+<ul>
+<li>structure</li>
+<li>consistency</li>
+<li>conciseness</li>
+</ul>
+</section>
+<section id="how-do-we-do-it" class="slide level1">
+<h1>How do we do it?</h1>
+</section>
+<section id="data-modeling" class="slide level1">
+<h1>Data modeling</h1>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<p><a href="https://juliaflanders.files.wordpress.com/2016/08/flanders_jannidis_data_modeling.pdf">Sperberg-McQueen</a>: &quot;modeling is a way to make explicit our assumptions about the nature of a text/artefact.&quot;</p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<p><a href="http://www.scottbot.net/HIAL/?p=6279">Weingart</a>: &quot;humanists care more about the differences than the regularities.&quot;</p>
+</section>
+<section id="databases" class="slide level1">
+<h1>Databases</h1>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<p><img src="http://www.sqlservertutorial.net/wp-content/uploads/SQL-Server-Sample-Database.png"></p>
+<p><a href="http://www.sqlservertutorial.net/sql-server-sample-database/">source</a></p>
+</section>
+<section id="how-do-we-ask-questions" class="slide level1">
+<h1>How do we ask questions?</h1>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<p><code>SELECT * FROM Pets WHERE Animal = &quot;Cat&quot;;</code></p>
+</section>
+<section id="what-does-a-data-model-of-wl-look-like" class="slide level1">
+<h1>What does a data model of W&amp;L look like?</h1>
+</section>
+<section id="activity" class="slide level1">
+<h1>Activity</h1>
+<p>In groups of three, create a data model for the city of Florence.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

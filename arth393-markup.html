@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Prof. Mackenzie Brooks, DH Librarian">
+  <meta name="dcterms.date" content="2019-04-23">
+  <title>ARTH 383 // markup + markdown</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">ARTH 383 // markup + markdown</h1>
+  <p class="author">Prof. Mackenzie Brooks, DH Librarian</p>
+  <p class="date">April 23, 2019</p>
+</section>
+
+<section id="icebreaker" class="slide level1">
+<h1>Icebreaker</h1>
+<p>Earliest memory of the internet</p>
+</section>
+<section id="goals" class="slide level1">
+<h1>Goals</h1>
+<ul>
+<li>understand value of plain text</li>
+<li>create first website!</li>
+<li>become familiar with Markdown</li>
+</ul>
+</section>
+<section id="what-is-digital-humanities" class="slide level1">
+<h1>what is Digital Humanities?</h1>
+</section>
+<section id="what-is-dh" class="slide level1">
+<h1>what is DH?</h1>
+<ul>
+<li>remediation!</li>
+<li>print no longer primary medium</li>
+</ul>
+</section>
+<section id="environment-setup" class="slide level1">
+<h1>environment setup</h1>
+<ol type="1">
+<li>Text editors: Sublime, Atom, Notepad</li>
+<li>Browser other than Safari.</li>
+</ol>
+</section>
+<section id="why-plain-text" class="slide level1">
+<h1>why plain text</h1>
+<ul>
+<li>Because you're writing code, not a document.</li>
+<li>For computers first, then humans.</li>
+<li>Content matters, not style.</li>
+</ul>
+</section>
+<section id="activity-1" class="slide level1">
+<h1>activity 1</h1>
+<ol type="1">
+<li>Open your syllabus in Word.</li>
+<li>Save it as another file type (.xml, .rtf, .txt or others).</li>
+<li>Open your new file in Sublime. What do you see? What is different? What is messed up?</li>
+</ol>
+</section>
+<section id="markup" class="slide level1">
+<h1>markup</h1>
+</section>
+<section id="hypertext-markup-language" class="slide level1">
+<h1>Hypertext Markup Language</h1>
+</section>
+<section id="html" class="slide level1">
+<h1>HTML</h1>
+<ul>
+<li>building block of the Web</li>
+<li>set of pre-defined tags/elements</li>
+<li>adds structure to a document/website</li>
+<li>tags define the piece of content within them</li>
+</ul>
+</section>
+<section id="html-1" class="slide level1">
+<h1>HTML</h1>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;My First Heading&lt;/h1&gt;
+        &lt;p&gt;My first paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+<section id="your-first-website" class="slide level1">
+<h1>your first website!</h1>
+<ol type="1">
+<li>Open Sublime and enter your HTML.</li>
+<li>Save the document as <code>index.html</code> to your Desktop.</li>
+<li>In your browser, open your new file. What do you see?</li>
+</ol>
+</section>
+<section id="activity-2" class="slide level1">
+<h1>activity 2</h1>
+<ol type="1">
+<li>Using the <a href="https://www.w3schools.com/html/">W3 Schools</a> as a reference, add three more HTML tags to your website.</li>
+<li>Can you figure out how to add a link to another website? An image?</li>
+</ol>
+</section>
+<section id="cascading-style-sheets" class="slide level1">
+<h1>Cascading Style Sheets</h1>
+<ul>
+<li>different syntax than HTML</li>
+<li>list of rules, not a document</li>
+<li>usually lives in a separate file</li>
+</ul>
+</section>
+<section id="css" class="slide level1">
+<h1>CSS</h1>
+<pre><code>body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: &quot;Times New Roman&quot;;
+    font-size: 20px;
+}</code></pre>
+</section>
+<section id="getting-started-with-css" class="slide level1">
+<h1>getting started with CSS</h1>
+<ol type="1">
+<li>Create a new text document called <code>style.css</code>, saved to the same folder as your <code>index.html</code>.</li>
+<li>Add your CSS.</li>
+<li><p>In your HTML doc, add the following line within the <code>&lt;head&gt;</code> tag:</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;</code></pre></li>
+</ol>
+</section>
+<section id="activity-3" class="slide level1">
+<h1>activity 3</h1>
+<ol type="1">
+<li>Using the <a href="https://www.w3schools.com/css/default.asp">W3 Schools</a> as a reference, add some more styles to your website.</li>
+<li>Can you change the background color? Font?</li>
+</ol>
+</section>
+<section id="markdown" class="slide level1">
+<h1>markdown</h1>
+</section>
+<section id="markdown-1" class="slide level1">
+<h1>Markdown</h1>
+<ul>
+<li>A markup language designed to be lightweight and readable by humans.</li>
+<li>Easily transformed into HTML or other formats.</li>
+<li>Used on the <a href="https://raw.githubusercontent.com/florenceasitwas/site/master/_texts/paatz/orsanmichele_paatz_dau.md">Florence As It Was</a> website.</li>
+</ul>
+</section>
+<section id="markdown-syntax" class="slide level1">
+<h1>Markdown syntax</h1>
+<pre><code># Heading 1
+## Heading 2
+## Heading 3 
+
+[Link text](URL)
+
+* List item 1
+* List item 2
+* List item 3 
+
+*italics*
+**bold**</code></pre>
+</section>
+<section id="activity-4" class="slide level1">
+<h1>activity 4</h1>
+<ul>
+<li>Create a new text document in Sublime. Save it as <code>index.md</code>.</li>
+<li>Using the content of your website, recreate it in Markdown.</li>
+<li>To check your work, paste into <a href="https://dillinger.io/">Dillinger.io</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
